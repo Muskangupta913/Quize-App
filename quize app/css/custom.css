@@ -1,0 +1,41 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box
+}
+body{
+    background-color: aqua;
+}
+.main{
+    width: 100vh;
+    height:100vh;
+    display: flex;
+   justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#box{
+    width:60%; /* we dont put height here bcs according to the question the size of will inc or dec otherewise height would have been then not pssbl to inc or dec*/
+    box-shadow:0px 0px 5px grey;
+    padding:15px;
+    border-radius: 5px;
+    background-color: white;
+}
+.row{
+    width:100%;
+    padding:5px;
+    margin:2rem;
+    margin-left:0;
+}
+.btn{
+    width:100%;
+    padding:5px; /* no need to give height it aoutomatically manage the things*/
+background-color: aqua ;
+font-size: 20px;
+border: none;
+border-radius: 5px;
+color:white;
+
+
+
+}
